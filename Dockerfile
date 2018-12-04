@@ -1,3 +1,3 @@
 FROM centos
-RUN yum install httpd
+RUN yum install  -y httpd
 CMD ['/bin/bash']
